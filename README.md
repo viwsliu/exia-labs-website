@@ -1,7 +1,8 @@
 # Exia Labs Test Website
 
 ## Testing new UI
-
+### Things to consider
+- Ease of editing (via CMS or HTML)
 ## Stack
 ### Frontend
 - HTML
