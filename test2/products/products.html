@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exia Labs - Products</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+
+    <button class="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Fixed Navigation -->
+    <nav class="sidebar-nav">
+        <!-- Updated navigation links to reference parent directory -->
+        <a href="../index.html" class="sidebar-logo">
+            <img src="../images/exialabs_logo.jpg" alt="Exia Labs Logo" class="sidebar-logo-img">
+            <span>Exia Labs</span>
+        </a>
+        <ul class="sidebar-menu">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="products.html" class="active">Products</a>
+                <ul class="sidebar-submenu">
+                    <li><a href="#product1">Blue</a></li>
+                </ul>
+                <ul class="sidebar-submenu">
+                    <li><a href="#product2">Recon</a></li>
+                </ul>
+                <ul class="sidebar-submenu">
+                    <li><a href="#product3">Soraka</a></li>
+                </ul>
+                <ul class="sidebar-submenu">
+                    <li><a href="#product4">Viktor</a></li>
+                </ul>
+            </li>
+            <li><a href="https://blog.exialabs.com/" target="_blank" rel="noopener noreferrer">Blog <svg style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-left: 4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></li>
+        </ul>
+    </nav>
+
+    <!-- Wrapper for main content -->
+    <div class="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products-section">
+            <div class="container">
+                
+                <div class="products-title-wrapper">
+                    <h1 class="products-page-title">Our Products</h1>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Product 1: Blue -->
+                <div id="product1" class="product-section slide-up">
+                    <div class="product-content-alt">
+                        <div class="product-text-content">
+                            <h2>Blue</h2>
+                            <p class="product-description">
+                                Improve decision-making for warfighters. Suite of decision-support products that generate and wargame tactical echelon courses of action (COAs). Planning workflows could be tied to operations orders or users could place units in a sandbox in time and space. The sandbox wargaming feature leverages multiple models (including COFM), in order to produce a feasible, acceptable, and suitable COA. Currently optimized for Army brigades and battalions.
+                            </p>
+                            <a href="https://www.youtube.com/watch?v=ZHJPGVRdcLs" target="_blank" class="cta-button">LEARN MORE</a>
+                        </div>
+                        <div class="product-images-single">
+                            <!-- Updated image paths to reference parent directory -->
+                            <img src="../images/blue_sandbox.png" alt="" class="product-single-image">
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Product 2: Recon -->
+                <div id="product2" class="product-section slide-up">
+                    <div class="product-content-alt">
+                        <div class="product-text-content">
+                            <h2>Recon</h2>
+                            <p class="product-description">
+                                Improve decision-making by analyzing the neutral operational environment: terrain, weather, and time. A cloud-based Intelligence Preparation of the Operational Environment AI agent that creates decision support products like the Modified Combined Obstacle Overlay, identifies key terrain such as tactical areas for Position Areas for Artillery, Logistics Resupply Points and generates maneuver and logistics routes based on specific formations (e.g. Stryker Battalion, Mobile Infantry Company, Armor Brigade).
+                            </p>
+                            <a href="https://example.com/cloudsync" target="_blank" class="cta-button">LEARN MORE</a>
+                        </div>
+                        <div class="product-images-single">
+                            <img src="../images/recon.jpg" alt="" class="product-single-image">
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Product 3: Soraka -->
+                <div id="product3" class="product-section slide-up">
+                    <div class="product-content-alt">
+                        <div class="product-text-content">
+                            <h2>Soraka</h2>
+                            <p class="product-description">
+                                Improve decision-making locally at the tactical edge. Data ecosystem "in a box" that enables data science at the tactical edge. Warfighters are able to process massive amounts of sensor data locally, without the need to transmit data to higher headquarters. Local processing allows for faster analysis and better decision-making in contested environments.
+                            </p>
+                            <a href="https://www.army.mil/article/288299/army_selects_six_winners_in_xtech_ai_grand_challenge_competition" target="_blank" class="cta-button">LEARN MORE</a>
+                        </div>
+                        <div class="product-images-single">
+                            <img src="../images/soraka.png" alt="" class="product-single-image">
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="section-divider">
+
+                <!-- Product 4: Viktor -->
+                <div id="product4" class="product-section slide-up">
+                    <div class="product-content-alt">
+                        <div class="product-text-content">
+                            <h2>Viktor</h2>
+                            <p class="product-description">
+                                Improve decision-making for humanoid robots. Humanoid robot simulation platform built on a commercial game engine. Simulates Army individual and collective warrior tasks through a digital twin that mirrors physical robot actions and tasks. Takes generated COAs from Blue and simulates them at the individual level, ensuring robots not only execute tasks but also understand how their actions nest within higher-echelon missions.
+                            </p>
+                            <a href="" target="_blank" class="cta-button">Coming Soon</a>
+                        </div>
+                        <div class="product-images-single">
+                            <img src="../images/viktor.png" alt="" class="product-single-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Exia Labs. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Updated script path to reference parent directory -->
+    <script src="../animations.js"></script>
+</body>
+</html>
