@@ -40,6 +40,28 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     })
   })
+
+  const topNavbar = document.querySelector(".top-navbar")
+  let lastScrollTop = 0
+  let scrollTimeout
+
+  if (topNavbar) {
+    window.addEventListener("scroll", () => {
+      clearTimeout(scrollTimeout)
+
+      scrollTimeout = setTimeout(() => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+
+        if (scrollTop > lastScrollTop && scrollTop > 100) {
+          topNavbar.classList.add("hidden")
+        } else {
+          topNavbar.classList.remove("hidden")
+        }
+
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop
+      }, 100)
+    })
+  }
 })
 
 const hamburger = document.querySelector(".hamburger")

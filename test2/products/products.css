@@ -1,7 +1,8 @@
 .products-title-wrapper {
   text-align: center;
+  /* Reduced gap between GIF header and title */
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .products-page-title {
