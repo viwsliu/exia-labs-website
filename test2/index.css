@@ -71,7 +71,6 @@
   letter-spacing: -1px;
   border: none;
   padding: 0;
-  /* Apply Poppins font to hero h1 only */
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
@@ -151,12 +150,24 @@
   background-color: var(--bg-dark);
 }
 
+.mission-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+.mission-text-container {
+  flex: 1;
+}
+
 .mission-video {
-  max-width: 900px;
-  margin: 0 auto 40px;
+  flex: 1;
+  max-width: 600px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow-lg);
+  margin: 0;
 }
 
 .mission-video video {
@@ -164,12 +175,161 @@
   display: block;
 }
 
+.mission-content-reverse {
+  flex-direction: row-reverse;
+}
+
 .mission-text {
-  max-width: 800px;
-  margin: 0 auto 20px;
+  margin: 0 0 20px 0;
   font-size: 18px;
   line-height: 1.8;
   color: var(--text-light);
+}
+
+.vision-section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: url("images/test2.png") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.vision-overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.vision-content {
+  max-width: 600px;
+}
+
+.vision-heading {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+.vision-text {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  opacity: 0.95;
+}
+
+.vision-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 35px;
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.vision-button:hover {
+  background: #ffffff;
+  color: #000000;
+  transform: translateX(5px);
+}
+
+.vision-button span {
+  transition: transform 0.3s ease;
+}
+
+.vision-button:hover span {
+  transform: translateX(5px);
+}
+
+.vision-section-alt {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: url("images/test4.jpg") center center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.vision-overlay-alt {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vision-content-alt {
+  max-width: 600px;
+}
+
+.vision-heading-alt {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+.vision-text-alt {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  opacity: 0.95;
+}
+
+.vision-button-alt {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 35px;
+  background: rgba(100, 100, 100, 0.7);
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.vision-button-alt:hover {
+  background: rgba(150, 150, 150, 0.9);
+  border-color: #ffffff;
+  transform: translateX(5px);
+}
+
+.vision-button-alt span {
+  transition: transform 0.3s ease;
+}
+
+.vision-button-alt:hover span {
+  transform: translateX(5px);
+}
+
+#vision3.vision-section {
+  background: url("images/blue_intro.png") center center / cover no-repeat;
 }
 
 .products-preview {
@@ -325,6 +485,30 @@
   .hero-text .mission-statement {
     font-size: 20px;
   }
+
+  .vision-overlay {
+    padding: 0 40px;
+  }
+
+  .vision-heading {
+    font-size: 48px;
+  }
+
+  .vision-text {
+    font-size: 16px;
+  }
+
+  .vision-overlay-alt {
+    padding: 0 40px;
+  }
+
+  .vision-heading-alt {
+    font-size: 48px;
+  }
+
+  .vision-text-alt {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -356,6 +540,50 @@
   .team-member {
     width: 100%;
   }
+
+  .mission-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .mission-video {
+    max-width: 100%;
+  }
+
+  .vision-overlay {
+    padding: 0 20px;
+  }
+
+  .vision-heading {
+    font-size: 36px;
+  }
+
+  .vision-text {
+    font-size: 15px;
+  }
+
+  .vision-button {
+    padding: 12px 28px;
+    font-size: 14px;
+  }
+
+  .vision-overlay-alt {
+    padding: 0 20px;
+    justify-content: flex-start;
+  }
+
+  .vision-heading-alt {
+    font-size: 36px;
+  }
+
+  .vision-text-alt {
+    font-size: 15px;
+  }
+
+  .vision-button-alt {
+    padding: 12px 28px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -365,5 +593,21 @@
 
   .hero-text .mission-statement {
     font-size: 16px;
+  }
+
+  .vision-heading {
+    font-size: 28px;
+  }
+
+  .vision-text {
+    font-size: 14px;
+  }
+
+  .vision-heading-alt {
+    font-size: 28px;
+  }
+
+  .vision-text-alt {
+    font-size: 14px;
   }
 }

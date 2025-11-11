@@ -1,5 +1,3 @@
-/* Global Styles - Shared across all pages */
-
 * {
   margin: 0;
   padding: 0;
@@ -38,14 +36,14 @@ body {
   padding: 0 20px;
 }
 
-/* Sidebar Navigation - Shared */
 .sidebar-nav {
   position: fixed;
   left: 0;
   top: 0;
   bottom: 0;
   width: var(--sidebar-width);
-  background-color: var(--bg-darker);
+  background-color: rgba(10, 14, 19, 0.548);
+  backdrop-filter: blur(10px);
   box-shadow: var(--shadow-lg);
   z-index: 1000;
   display: flex;
@@ -146,7 +144,6 @@ body {
   display: none;
 }
 
-/* Section Styles - Shared */
 section {
   padding: 80px 20px;
 }
@@ -166,7 +163,6 @@ section {
   margin: 0 0 60px 0;
 }
 
-/* Button Styles - Shared */
 .cta-button {
   display: inline-block;
   padding: 16px 48px;
@@ -207,41 +203,16 @@ section {
   text-align: center;
 }
 
-/* Page Header - Shared */
 .page-header {
-  /* background: linear-gradient(135deg, #1a1d2e 0%, #2e3141 50%, #3d4152 100%);  */
-  /* Changed background from PNG to GIF */
   background-image: url("images/logo/Main.gif");
-  padding: 80px 20px;
-  background-position: center center; /* centers horizontally + vertically */
-  background-repeat: no-repeat; /* prevents tiling */
-  background-size: cover; /* scales image to cover area */
+  padding: 140px 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   color: white;
-  /* Added relative positioning for overlay */
   position: relative;
 }
-
-/* Added translucent overlay behind text for better readability */
-/* .page-header .container {
-  position: relative;
-  z-index: 2;
-} */
-
-/* .page-header .container::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 800px;
-  height: calc(100% + 40px);
-  background-color: rgba(200, 200, 200, 0.15);
-  backdrop-filter: blur(4px);
-  border-radius: 12px;
-  z-index: -1;
-} */
 
 .page-header h1 {
   font-size: 48px;
@@ -253,7 +224,6 @@ section {
   opacity: 0.95;
 }
 
-/* Footer - Shared */
 .footer {
   background-color: var(--bg-darker);
   color: var(--text-light);
@@ -261,7 +231,6 @@ section {
   padding: 30px 20px;
 }
 
-/* Animation Classes - Shared */
 .fade-in {
   animation: fadeIn 1s ease-in;
 }
@@ -288,7 +257,6 @@ section {
   transform: translateY(0);
 }
 
-/* Mobile Navigation */
 @media (max-width: 768px) {
   .sidebar-nav {
     transform: translateX(-100%);
