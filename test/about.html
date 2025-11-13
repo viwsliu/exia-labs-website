@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exia Labs Test Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			#header nav {
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+			}
+			
+			#header nav ul.navbar-links {
+				display: flex;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				gap: 2rem;
+			}
+			
+			#header nav ul.navbar-links li {
+				margin: 0;
+			}
+			
+			#header nav ul.navbar-links li a {
+				color: inherit;
+				text-decoration: none;
+				font-weight: 500;
+				transition: color 0.2s ease;
+				border-bottom: 2px solid transparent;
+				padding-bottom: 0.25rem;
+			}
+			
+			#header nav ul.navbar-links li a:hover {
+				color: #8cc9f0;
+				border-bottom-color: #8cc9f0;
+			}
+			
+			/* Mobile menu toggle button */
+			.menu-toggle {
+				display: none;
+				background: none;
+				border: none;
+				outline: none;
+				color: inherit;
+				font-size: 1.5rem;
+				cursor: pointer;
+				padding: 0.5rem;
+				transition: opacity 0.2s ease;
+			}
+			
+			.menu-toggle:focus {
+				outline: none;
+			}
+			
+			.menu-toggle:hover {
+				opacity: 0.7;
+			}
+			
+			/* Responsive styles for mobile */
+			@media screen and (max-width: 768px) {
+				#header nav {
+					justify-content: flex-end;
+				}
+				
+				#header nav ul.navbar-links {
+					display: none;
+					position: absolute;
+					top: 100%;
+					right: 0;
+					background: #353436d2;
+					flex-direction: column;
+					gap: 0;
+					padding: 1rem 0;
+					box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+					min-width: 200px;
+					z-index: 1000;
+				}
+				
+				#header nav ul.navbar-links.active {
+					display: flex;
+				}
+				
+				#header nav ul.navbar-links li {
+					padding: 0.75rem 2rem;
+					width: 100%;
+				}
+				
+				#header nav ul.navbar-links li a {
+					display: block;
+					width: 100%;
+				}
+				
+				.menu-toggle {
+					display: block;
+				}
+			}
+			
+			/* Add spacing before section */
+			/* #mission {
+				margin-top: 30rem;
+			} */
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="about.html">Exia Labs</a></h1>
+						<nav>
+							<button class="menu-toggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+								<span>☰</span>
+							</button>
+							<ul class="navbar-links" id="navbarLinks">
+								<li><a href="home.html">Home</a></li>
+								<li><a href="products.html">Products</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="about.html">About us</a></li>
+							</ul>
+						</nav>
+					</header>
+
+
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+            <header>
+							<div class="inner">
+								<h2>Generic</h2>
+								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+							</div>
+						</header>
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Magna arcu feugiat</h2>
+										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<a href="https://www.youtube.com/watch?v=ZHJPGVRdcLs" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Tempus adipiscing</h2>
+										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Nullam dignissim</h2>
+										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<!-- <li class="icon solid fa-home">
+									Untitled Inc<br />
+									1234 Somewhere Road Suite #2894<br />
+									Nashville, TN 00000-0000
+								</li> -->
+								<!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+								<li class="icon solid fa-envelope"><a href="#">test@email.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/company/exialabs/">LinkedIn</a></li>
+								<li class="icon brands fa-youtube"><a href="https://www.youtube.com/@Exia-Labs">Youtube</a></li>
+								<li class="icon brands fa-twitter"><a href="https://www.youtube.com/@Exia-Labs">Twitter / X</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; 2025 Exia Labs. All rights reserved.</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<!-- Added mobile menu toggle script -->
+			<script>
+				function toggleMobileMenu() {
+					const navbarLinks = document.getElementById('navbarLinks');
+					navbarLinks.classList.toggle('active');
+				}
+				
+				// Close mobile menu when clicking outside
+				document.addEventListener('click', function(event) {
+					const nav = document.querySelector('#header nav');
+					const navbarLinks = document.getElementById('navbarLinks');
+					const menuToggle = document.querySelector('.menu-toggle');
+					
+					if (!nav.contains(event.target)) {
+						navbarLinks.classList.remove('active');
+					}
+				});
+			</script>
+
+	</body>
+</html>
