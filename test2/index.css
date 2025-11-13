@@ -4,8 +4,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background: url("/placeholder.svg?height=1080&width=1920") center / cover no-repeat; */
-  background: radial-gradient(circle, rgba(14, 68, 115, 1) 0%, rgba(22, 48, 99, 1) 50%, rgba(0, 0, 0, 1) 100%);
+  background: url("images/test6.jpg") center / cover no-repeat;
+  /* background: radial-gradient(circle, rgba(14, 68, 115, 1) 0%, rgba(22, 48, 99, 1) 50%, rgba(0, 0, 0, 1) 100%); */
   position: relative;
   overflow: hidden;
   color: #fff;
@@ -148,6 +148,7 @@
 
 .mission-section {
   background-color: var(--bg-dark);
+  padding-top: 2%;
 }
 
 .mission-content {

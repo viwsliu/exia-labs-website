@@ -36,19 +36,27 @@ body {
   padding: 0 20px;
 }
 
+/* Hide sidebar on desktop, show as overlay when active */
 .sidebar-nav {
   position: fixed;
   left: 0;
   top: 0;
   bottom: 0;
   width: var(--sidebar-width);
-  background-color: rgba(10, 14, 19, 0.548);
+  background-color: rgba(10, 14, 19, 0.95);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-lg);
   z-index: 1000;
   display: flex;
   flex-direction: column;
   padding: 40px 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.sidebar-nav.active {
+  transform: translateX(0);
+  z-index: 1002;
 }
 
 .sidebar-logo {
@@ -132,7 +140,7 @@ body {
 }
 
 .main-content {
-  margin-left: var(--sidebar-width);
+  margin-left: 0;
   min-height: 100vh;
 }
 
@@ -158,9 +166,9 @@ section {
 
 .section-divider {
   border: none;
-  height: 1px;
+  height: 5px;
   background: linear-gradient(to right, transparent, var(--border-color) 20%, var(--border-color) 80%, transparent);
-  margin: 0 0 60px 0;
+  margin: 0 0 25px 0;
 }
 
 .cta-button {
@@ -205,7 +213,7 @@ section {
 
 .page-header {
   background-image: url("images/logo/Main.gif");
-  padding: 140px 20px;
+  /* padding: 140px 20px; */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -255,6 +263,29 @@ section {
 .slide-up.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Always show hamburger menu on all screen sizes */
+.hamburger {
+  display: flex;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+  background-color: var(--bg-card);
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-dark);
+  display: block;
 }
 
 @media (max-width: 768px) {
