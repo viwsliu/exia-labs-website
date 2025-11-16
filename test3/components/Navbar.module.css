@@ -1,0 +1,189 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(10, 10, 15, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(10, 10, 15, 0.95);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbarContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: opacity 0.2s ease;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.logoText {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.navMenu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.navMenu li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  transition: color 0.2s ease;
+  position: relative;
+  padding: 8px 0;
+}
+
+.navMenu li a:hover {
+  color: #ffffff;
+}
+
+.activeLink {
+  color: #ffffff !important;
+}
+
+.activeLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #3b82f6, transparent);
+  border-radius: 2px;
+}
+
+.blogLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.blogLink svg {
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.blogLink:hover svg {
+  opacity: 1;
+}
+
+.mobileToggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.mobileToggle svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbarContainer {
+    padding: 0 20px;
+    height: 60px;
+  }
+
+  .logo {
+    left: 20px;
+  }
+
+  .mobileToggle {
+    display: block;
+  }
+
+  .navMenu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: rgba(10, 10, 15, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    gap: 0;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+
+  .navMenu.active {
+    transform: translateX(0);
+  }
+
+  .navMenu li {
+    width: 100%;
+  }
+
+  .navMenu li a {
+    display: block;
+    padding: 16px 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .activeLink::after {
+    display: none;
+  }
+
+  .activeLink {
+    background-color: rgba(59, 130, 246, 0.1);
+  }
+
+  .logoText {
+    font-size: 1rem;
+  }
+
+  .logoImg {
+    width: 36px;
+    height: 36px;
+  }
+}

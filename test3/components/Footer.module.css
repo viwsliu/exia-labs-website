@@ -1,0 +1,41 @@
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.socialLinks a {
+  color: var(--text-light);
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialLinks a:hover {
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.socialLinks svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .socialLinks {
+    gap: 20px;
+  }
+  
+  .socialLinks svg {
+    width: 20px;
+    height: 20px;
+  }
+}

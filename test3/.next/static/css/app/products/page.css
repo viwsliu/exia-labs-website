@@ -1,0 +1,351 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/Footer.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footerContent__yAl3k {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.Footer_socialLinks__tA7gt {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.Footer_socialLinks__tA7gt a {
+  color: var(--text-light);
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer_socialLinks__tA7gt a:hover {
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.Footer_socialLinks__tA7gt svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .Footer_socialLinks__tA7gt {
+    gap: 20px;
+  }
+  
+  .Footer_socialLinks__tA7gt svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./app/products/products.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.products_mainContent__Kmdec {
+  margin-left: 0;
+  min-height: 100vh;
+}
+
+.products_pageHeader__cpCiv {
+  background-image: 
+    url("/images/logo/Logo-purple-white.png"),
+    radial-gradient(circle, rgba(14,68,115,1) 0%, rgba(22,48,99,1) 50%, rgba(0,0,0,1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.products_productsSection__mB67q {
+  background-color: var(--bg-dark);
+}
+
+.products_productsTitleWrapper__uYb5J {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: -30px;
+}
+
+.products_productsPageTitle__NLwLm {
+  font-size: 36px;
+  color: var(--text-dark);
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.products_productsPageTitle__NLwLm::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--primary-color), transparent);
+  border-radius: 2px;
+}
+
+.products_productSection__xjXLd {
+  margin-bottom: 80px;
+}
+
+.products_productSection__xjXLd h2 {
+  font-size: 42px;
+  color: var(--text-dark);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.products_productContentAlt__ch_Os {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.products_productTextContent__mXgTQ h2 {
+  font-size: 48px;
+  color: var(--text-dark);
+  margin-bottom: 30px;
+}
+
+.products_productDescription__eQ2RP {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.products_productTextContent__mXgTQ .products_cta-button__IhByf {
+  margin-top: 20px;
+}
+
+.products_productImagesSingle__Unq7s {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products_productSingleImage__poTmE {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .products_productContentAlt__ch_Os {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .products_productTextContent__mXgTQ h2 {
+    font-size: 32px;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./components/Navbar.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_navbar__GrSXC {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(10, 10, 15, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.Navbar_navbar__GrSXC.Navbar_scrolled__N9DJM {
+  background-color: rgba(10, 10, 15, 0.95);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Navbar_navbarContainer__WC_ES {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Navbar_logo__X4o9i {
+  position: absolute;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: opacity 0.2s ease;
+}
+
+.Navbar_logo__X4o9i:hover {
+  opacity: 0.8;
+}
+
+.Navbar_logoImg__5losR {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.Navbar_logoText__Jmms3 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.Navbar_navMenu__1o8ZE {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.Navbar_navMenu__1o8ZE li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  transition: color 0.2s ease;
+  position: relative;
+  padding: 8px 0;
+}
+
+.Navbar_navMenu__1o8ZE li a:hover {
+  color: #ffffff;
+}
+
+.Navbar_activeLink__izzmo {
+  color: #ffffff !important;
+}
+
+.Navbar_activeLink__izzmo::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #3b82f6, transparent);
+  border-radius: 2px;
+}
+
+.Navbar_blogLink__EgLNQ {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.Navbar_blogLink__EgLNQ svg {
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.Navbar_blogLink__EgLNQ:hover svg {
+  opacity: 1;
+}
+
+.Navbar_mobileToggle__DKrv7 {
+  display: none;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.Navbar_mobileToggle__DKrv7 svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .Navbar_navbarContainer__WC_ES {
+    padding: 0 20px;
+    height: 60px;
+  }
+
+  .Navbar_logo__X4o9i {
+    left: 20px;
+  }
+
+  .Navbar_mobileToggle__DKrv7 {
+    display: block;
+  }
+
+  .Navbar_navMenu__1o8ZE {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: rgba(10, 10, 15, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    gap: 0;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+
+  .Navbar_navMenu__1o8ZE.Navbar_active__qyFWv {
+    transform: translateX(0);
+  }
+
+  .Navbar_navMenu__1o8ZE li {
+    width: 100%;
+  }
+
+  .Navbar_navMenu__1o8ZE li a {
+    display: block;
+    padding: 16px 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .Navbar_activeLink__izzmo::after {
+    display: none;
+  }
+
+  .Navbar_activeLink__izzmo {
+    background-color: rgba(59, 130, 246, 0.1);
+  }
+
+  .Navbar_logoText__Jmms3 {
+    font-size: 1rem;
+  }
+
+  .Navbar_logoImg__5losR {
+    width: 36px;
+    height: 36px;
+  }
+}
+

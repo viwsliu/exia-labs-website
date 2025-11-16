@@ -1,30 +1,27 @@
-# Exia Labs Test Website
+# Exia Labs Website
 
-## Testing new UI
-### Things to consider
-- Ease of editing (via CMS or HTML)
 ## Stack
-### Frontend
 - HTML
 - CSS
 - TSX
-- React (idk yet)
-### Backend
-- Python (when needed)
+- React
 
-## Pages & Content (Concept):
+## Pages & Content:
 ### Home
-- Mission statement (i.e "Equipping warfighters to dominate the future battlefield" or "Empowering warfighters with unmatched capability")
-- What EL does? (We deliver ...)
-- What EL offers (examples)
-	- Innovation ("Leading the industry with...")
-	- something (Quality? Excellence? Reliability?)
-	- Support ("Dedicated to the success of warfighters on the ground ...")
-### Products (+ description and images on each)
+### Products
 - Blue
 - Viktor
 - Recon
 - Soraka
-### Blog (SubStack w/ API?)
-### About us
--Team members + titles + quote(?)
+
+Product info loaded from respective JSON in '/data'
+
+### About
+- Mission statement (i.e "Equipping warfighters to dominate the future battlefield" or "Empowering warfighters with unmatched capability")
+- Impact
+- Team
+- Backers
+
+Team and Backers are loaded from respective JSON in '/data'
+
+### Blog (External link)

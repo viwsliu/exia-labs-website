@@ -1,0 +1,22 @@
+[
+  {
+    "image_source": "/images/backers/a1.svg",
+    "name": "backer1"
+  },
+  {
+    "image_source": "/images/backers/anorak.png",
+    "name": "backer2"
+  },
+  {
+    "image_source": "/images/backers/mv.svg",
+    "name": "backer3"
+  },
+  {
+    "image_source": "/images/backers/pathbreaker.png",
+    "name": "backer4"
+  },
+  {
+    "image_source": "/images/backers/space_capital.png",
+    "name": "backer5"
+  }
+]
