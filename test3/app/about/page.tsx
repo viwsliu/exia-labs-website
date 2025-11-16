@@ -53,10 +53,9 @@ export default function About() {
                 </p>
               </div>
               <div className={`${styles.missionVideo} slide-up`}>
-                <img src="/images/jon2.png" alt="Mission" />
+                <img src="../../public/images/jon2.png" alt="Mission" />
               </div>
             </div>
-            
           </div>
         </section>
 
@@ -76,7 +75,7 @@ export default function About() {
                 </p>
               </div>
               <div className={`${styles.missionVideo} slide-up`}>
-                <img src="/images/jon1.png" alt="Impact" />
+                <img src="../../public/images/jon1.png" alt="Impact" />
               </div>
             </div>
           </div>
