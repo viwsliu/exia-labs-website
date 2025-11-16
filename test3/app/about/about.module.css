@@ -68,7 +68,7 @@
 
 .missionImage {
   flex: 1;
-  background-image: url('/images/jon2.png');
+  background-image: url('/images/Jon2.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 
 .impactImage {
   flex: 1;
-  background-image: url('/images/jon1.png');
+  background-image: url('/images/Jon1.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
