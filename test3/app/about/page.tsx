@@ -52,9 +52,7 @@ export default function About() {
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                 </p>
               </div>
-              <div className={`${styles.missionVideo} slide-up`}>
-                <img src="../../public/images/jon2.png" alt="Mission" />
-              </div>
+              <div className={`${styles.missionImage} slide-up`}></div>
             </div>
           </div>
         </section>
@@ -71,12 +69,10 @@ export default function About() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <p className={styles.missionText}>
-                  We are transforming how warfighters make critical decisions through advanced AI systems. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  We are transforming how warfighters make critical decisions through advanced AI systems. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                 </p>
               </div>
-              <div className={`${styles.missionVideo} slide-up`}>
-                <img src="../../public/images/jon1.png" alt="Impact" />
-              </div>
+              <div className={`${styles.impactImage} slide-up`}></div>
             </div>
           </div>
         </section>
