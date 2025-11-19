@@ -4,7 +4,7 @@
 }
 
 .pageHeader {
-  background-image: 
+  background-image:
     url("/images/logo/Logo-purple-white.png"),
     radial-gradient(circle, rgba(14,68,115,1) 0%, rgba(22,48,99,1) 50%, rgba(0,0,0,1) 100%);
   background-position: center center;
@@ -95,6 +95,26 @@
   border-radius: 12px;
   box-shadow: var(--shadow-lg);
   object-fit: contain;
+}
+
+/* Added styles for YouTube video embeds */
+.videoContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.youtubeEmbed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
 }
 
 @media (max-width: 768px) {

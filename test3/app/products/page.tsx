@@ -8,7 +8,9 @@ interface Product {
   id: string
   name: string
   description: string
+  mediaType: 'image' | 'video'
   image?: string
+  youtubeId?: string
   learnMoreUrl?: string
   ctaText: string
   imagePosition?: 'left' | 'right'
@@ -46,7 +48,19 @@ export default function Products() {
                   <div className={styles.productContentAlt}>
                     {product.imagePosition === 'left' && (
                       <div className={styles.productImagesSingle}>
-                        <img src={product.image || "/placeholder.svg"} alt="" className={styles.productSingleImage} />
+                        {product.mediaType === 'video' && product.youtubeId ? (
+                          <div className={styles.videoContainer}>
+                            <iframe
+                              src={`https://www.youtube.com/embed/${product.youtubeId}`}
+                              title={product.name}
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowFullScreen
+                              className={styles.youtubeEmbed}
+                            />
+                          </div>
+                        ) : (
+                          <img src={product.image || "/placeholder.svg"} alt="" className={styles.productSingleImage} />
+                        )}
                       </div>
                     )}
                     <div className={styles.productTextContent}>
@@ -67,7 +81,19 @@ export default function Products() {
                     </div>
                     {product.imagePosition === 'right' && (
                       <div className={styles.productImagesSingle}>
-                        <img src={product.image || "/placeholder.svg"} alt="" className={styles.productSingleImage} />
+                        {product.mediaType === 'video' && product.youtubeId ? (
+                          <div className={styles.videoContainer}>
+                            <iframe
+                              src={`https://www.youtube.com/embed/${product.youtubeId}`}
+                              title={product.name}
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowFullScreen
+                              className={styles.youtubeEmbed}
+                            />
+                          </div>
+                        ) : (
+                          <img src={product.image || "/placeholder.svg"} alt="" className={styles.productSingleImage} />
+                        )}
                       </div>
                     )}
                   </div>

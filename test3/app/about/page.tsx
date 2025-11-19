@@ -34,22 +34,20 @@ export default function About() {
           <div className="container"></div>
         </section>
 
-        {/* our mission */}
+        {/* What we do */}
         <section id="mission" className={styles.missionSection}>
           <div className="container">
             <div className={styles.productsTitleWrapper}>
               <h1 className={styles.productsPageTitle}>About Us</h1>
             </div>
             <hr className="section-divider" />
-            <h2 className="section-title slide-up">Our Mission</h2>
+            <h2 className="section-title slide-up">Our Work</h2>
             <div className={styles.missionContent}>
               <div className={`${styles.missionTextContainer} slide-up`}>
                 <p className={styles.missionText}>
-                  Example mission statement text goes here. Example text something. <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <p className={styles.missionText}>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  At Exia Labs, our team is dedicated to advancing the next generation of defense technology — purpose-built to support warfighters on the ground.
+                  We bring together engineers and experts who understand the realities of modern conflict and the urgent need for rapid, reliable, decision support.
+                  Our work centers on building software that analyzes complex environments, computes situational understanding, and delivers meaningful operational advantages in high-stakes environments.
                 </p>
               </div>
               <div className={`${styles.missionImage} slide-up`}></div>
@@ -57,19 +55,17 @@ export default function About() {
           </div>
         </section>
 
-        {/* our impact */}
+        {/* our Mission */}
         <section id="impact" className={styles.impactSection}>
           <div className="container">
             <hr className="section-divider" />
-            <h2 className="section-title slide-up">Our Impact</h2>
+            <h2 className="section-title slide-up">Our Mission</h2>
             <div className={`${styles.missionContent} ${styles.missionContentReverse}`}>
               <div className={`${styles.missionTextContainer} slide-up`}>
                 <p className={styles.missionText}>
-                  Our impact. Example impact statement text goes here. <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p className={styles.missionText}>
-                  We are transforming how warfighters make critical decisions through advanced AI systems. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  Our mission is to develop AI-driven solutions that empower warfighters to make faster, smarter decisions in the field. 
+                  By harnessing cutting-edge technology and a deep understanding of modern operational environments, we aim to enhance situational awareness, streamline operations, and ultimately save lives.
+                  We are committed to pushing the boundaries of innovation while upholding the highest standards of reliability.
                 </p>
               </div>
               <div className={`${styles.impactImage} slide-up`}></div>
@@ -81,7 +77,7 @@ export default function About() {
         <section id="team" className={styles.teamSection}>
           <div className="container">
             <hr className="section-divider" />
-            <h2 className="section-title slide-up">Our Team</h2>
+            <h2 className="section-title-alt slide-up">Our Team</h2>
             <div className={styles.teamGrid}>
               {(teamData as TeamMember[]).map((member, index) => (
                 <div key={index} className={`${styles.teamMember} slide-up`}>
@@ -114,7 +110,7 @@ export default function About() {
         <section id="investors" className={styles.teamSection}>
           <div className="container">
             <hr className="section-divider" />
-            <h2 className="section-title slide-up">Our Backers</h2>
+            <h2 className="section-title-alt slide-up">Our Backers</h2>
             <div className={styles.investorsGrid}>
               {(backersData as Backer[]).map((backer, index) => (
                 <div key={index} className={`${styles.investorCard} slide-up`}>
