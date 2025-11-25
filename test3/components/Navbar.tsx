@@ -67,7 +67,7 @@ export default function Navbar({ currentPage = 'home' }: NavbarProps) {
               className={currentPage === 'products' ? styles.activeLink : ''}
               onClick={closeMobileMenu}
             >
-              Solutions
+              Products
             </Link>
           </li>
           <li>

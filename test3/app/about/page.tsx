@@ -15,7 +15,6 @@ interface TeamMember {
 
 interface Backer {
   image_source?: string
-  name?: string
 }
 
 export const metadata = {
@@ -35,7 +34,7 @@ export default function About() {
         </section>
 
         {/* What we do */}
-        <section id="mission" className={styles.missionSection}>
+        {/* <section id="mission" className={styles.missionSection}>
           <div className="container">
             <div className={styles.productsTitleWrapper}>
               <h1 className={styles.productsPageTitle}>About Us</h1>
@@ -53,10 +52,10 @@ export default function About() {
               <div className={`${styles.missionImage} slide-up`}></div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* our Mission */}
-        <section id="impact" className={styles.impactSection}>
+        {/* <section id="impact" className={styles.impactSection}>
           <div className="container">
             <hr className="section-divider" />
             <h2 className="section-title slide-up">Our Mission</h2>
@@ -71,7 +70,7 @@ export default function About() {
               <div className={`${styles.impactImage} slide-up`}></div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* team */}
         <section id="team" className={styles.teamSection}>
@@ -114,7 +113,7 @@ export default function About() {
             <div className={styles.investorsGrid}>
               {(backersData as Backer[]).map((backer, index) => (
                 <div key={index} className={`${styles.investorCard} slide-up`}>
-                  <img src={backer.image_source || "/placeholder.svg"} alt={backer.name} />
+                  <img src={backer.image_source || "/placeholder.svg"} />
                 </div>
               ))}
             </div>

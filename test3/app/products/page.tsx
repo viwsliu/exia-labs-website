@@ -20,7 +20,7 @@ const products = productsData as Product[]
 
 export const metadata = {
   title: 'Exia Labs - Products',
-  description: 'Our cutting-edge AI-powered defense technology products',
+  description: '',
 }
 
 export default function Products() {
@@ -30,14 +30,12 @@ export default function Products() {
       <ScrollAnimations />
       
       <div className={styles.mainContent}>
-        <section className={styles.pageHeader}>
-          <div className="container"></div>
-        </section>
+
 
         <section className={styles.productsSection}>
           <div className="container">
             <div className={styles.productsTitleWrapper}>
-              <h1 className={styles.productsPageTitle}>Solutions</h1>
+              <h1 className={styles.productsPageTitle}>Products</h1>
             </div>
 
             <hr className="section-divider" />

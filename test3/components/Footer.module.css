@@ -5,6 +5,35 @@
   gap: 20px;
 }
 
+/* Added legal links styling */
+.legalLinks {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Replaced link styles with button styles */
+.legalButton {
+  background: none;
+  border: none;
+  color: var(--text-light);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  transition: color 0.3s ease;
+}
+
+.legalButton:hover {
+  color: var(--primary-color);
+}
+
+.divider {
+  color: var(--text-light);
+  opacity: 0.5;
+}
+
 .socialLinks {
   display: flex;
   gap: 24px;
@@ -30,10 +59,19 @@
 }
 
 @media (max-width: 768px) {
+  .legalLinks {
+    font-size: 12px;
+    gap: 8px;
+  }
+
+  .legalButton {
+    font-size: 12px;
+  }
+
   .socialLinks {
     gap: 20px;
   }
-  
+
   .socialLinks svg {
     width: 20px;
     height: 20px;
