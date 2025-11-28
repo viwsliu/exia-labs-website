@@ -30,16 +30,8 @@ export default function Products() {
       <ScrollAnimations />
       
       <div className={styles.mainContent}>
-
-
         <section className={styles.productsSection}>
           <div className="container">
-            {/* <div className={styles.productsTitleWrapper}>
-              <h1 className={styles.productsPageTitle}>Products</h1>
-            </div> */}
-
-            <hr className="section-divider" />
-
             {products.map((product, index) => (
               <div key={product.id}>
                 <div id={product.id} className={`${styles.productSection} slide-up`}>

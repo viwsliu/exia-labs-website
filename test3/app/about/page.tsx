@@ -29,50 +29,6 @@ export default function About() {
       <ScrollAnimations />
 
       <div className={styles.mainContent}>
-        {/* <section className={styles.pageHeader}>
-          <div className="container"></div>
-        </section> */}
-
-        {/* What we do */}
-        {/* <section id="mission" className={styles.missionSection}>
-          <div className="container">
-            <div className={styles.productsTitleWrapper}>
-              <h1 className={styles.productsPageTitle}>About Us</h1>
-            </div>
-            <hr className="section-divider" />
-            <h2 className="section-title slide-up">Our Work</h2>
-            <div className={styles.missionContent}>
-              <div className={`${styles.missionTextContainer} slide-up`}>
-                <p className={styles.missionText}>
-                  At Exia Labs, our team is dedicated to advancing the next generation of defense technology — purpose-built to support warfighters on the ground.
-                  We bring together engineers and experts who understand the realities of modern conflict and the urgent need for rapid, reliable, decision support.
-                  Our work centers on building software that analyzes complex environments, computes situational understanding, and delivers meaningful operational advantages in high-stakes environments.
-                </p>
-              </div>
-              <div className={`${styles.missionImage} slide-up`}></div>
-            </div>
-          </div>
-        </section> */}
-
-        {/* our Mission */}
-        {/* <section id="impact" className={styles.impactSection}>
-          <div className="container">
-            <hr className="section-divider" />
-            <h2 className="section-title slide-up">Our Mission</h2>
-            <div className={`${styles.missionContent} ${styles.missionContentReverse}`}>
-              <div className={`${styles.missionTextContainer} slide-up`}>
-                <p className={styles.missionText}>
-                  Our mission is to develop AI-driven solutions that empower warfighters to make faster, smarter decisions in the field. 
-                  By harnessing cutting-edge technology and a deep understanding of modern operational environments, we aim to enhance situational awareness, streamline operations, and ultimately save lives.
-                  We are committed to pushing the boundaries of innovation while upholding the highest standards of reliability.
-                </p>
-              </div>
-              <div className={`${styles.impactImage} slide-up`}></div>
-            </div>
-          </div>
-        </section> */}
-
-        {/* team */}
         <section id="team" className={styles.teamSection}>
           <div className="container">
             <hr className="section-divider" />
@@ -105,7 +61,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* investors */}
         <section id="investors" className={styles.teamSection}>
           <div className="container">
             <hr className="section-divider" />

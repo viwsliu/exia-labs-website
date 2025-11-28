@@ -3,18 +3,6 @@
   min-height: 100vh;
 }
 
-.pageHeader {
-  background-image: 
-    url("/images/logo/Logo-purple-white.png"),
-    radial-gradient(circle, rgba(14,68,115,1) 0%, rgba(22,48,99,1) 50%, rgba(0,0,0,1) 100%);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  text-align: center;
-  color: white;
-  position: relative;
-}
-
 .productsTitleWrapper {
   text-align: center;
   margin-bottom: 40px;
@@ -42,7 +30,7 @@
   border-radius: 2px;
 }
 
-.impactSection{
+.impactSection {
   background-color: var(--bg-dark);
   padding-top: 0%;
   padding-bottom: 0%;
@@ -68,7 +56,7 @@
 
 .missionImage {
   flex: 1;
-  background-image: url('/images/Jon2.png');
+  background-image: url("/images/Jon2.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,7 +68,7 @@
 
 .impactImage {
   flex: 1;
-  background-image: url('/images/Jon1.png');
+  background-image: url("/images/Jon1.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

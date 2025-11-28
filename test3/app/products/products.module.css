@@ -3,21 +3,8 @@
   min-height: 100vh;
 }
 
-.pageHeader {
-  /* background-image:
-    url("/images/logo/Logo-purple-white.png"),
-    radial-gradient(circle, rgba(14,68,115,1) 0%, rgba(22,48,99,1) 50%, rgba(0,0,0,1) 100%); */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  text-align: center;
-  color: white;
-  position: relative;
-}
-
 .productsSection {
   background-color: var(--bg-dark);
-  /* background-color: rgba(14,68,115,1); */
 }
 
 .productsTitleWrapper {
