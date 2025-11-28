@@ -34,9 +34,9 @@ export default function Products() {
 
         <section className={styles.productsSection}>
           <div className="container">
-            <div className={styles.productsTitleWrapper}>
+            {/* <div className={styles.productsTitleWrapper}>
               <h1 className={styles.productsPageTitle}>Products</h1>
-            </div>
+            </div> */}
 
             <hr className="section-divider" />
 

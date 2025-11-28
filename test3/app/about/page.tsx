@@ -29,9 +29,9 @@ export default function About() {
       <ScrollAnimations />
 
       <div className={styles.mainContent}>
-        <section className={styles.pageHeader}>
+        {/* <section className={styles.pageHeader}>
           <div className="container"></div>
-        </section>
+        </section> */}
 
         {/* What we do */}
         {/* <section id="mission" className={styles.missionSection}>
