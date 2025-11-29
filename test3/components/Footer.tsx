@@ -32,14 +32,16 @@ export default function Footer() {
                     <div className={styles.legalLinks}>
             <button
               className={styles.legalButton}
-              onClick={() => (window.location.href = "https://www.exialabs.com/terms")}
+              // onClick={() => (window.location.href = "https://www.exialabs.com/terms")}
+              onClick={() => (window.location.href = "/terms")}
             >
               Terms of Service
             </button>
             <span className={styles.divider}>|</span>
             <button
               className={styles.legalButton}
-              onClick={() => (window.location.href = "https://www.exialabs.com/privacy")}
+              // onClick={() => (window.location.href = "https://www.exialabs.com/privacy")}
+              onClick={() => (window.location.href = "/privacy")}
             >
               Privacy Policy
             </button>

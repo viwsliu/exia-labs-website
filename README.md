@@ -1,7 +1,6 @@
 # Exia Labs Website
 
 ## Stack
-- HTML
 - CSS
 - TSX
 - React
@@ -10,18 +9,17 @@
 ### Home
 ### Products
 - Blue
+- Keystone
 - Viktor
 - Recon
 - Soraka
 
-Product info loaded from respective JSON in '/data'
+Product info loaded from JSON in '/data'
 
 ### About
-- Mission statement (i.e "Equipping warfighters to dominate the future battlefield" or "Empowering warfighters with unmatched capability")
-- Impact
 - Team
 - Backers
 
-Team and Backers are loaded from respective JSON in '/data'
+Team and Backers loaded from JSON in '/data'
 
 ### Blog (External link)

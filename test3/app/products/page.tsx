@@ -3,6 +3,7 @@ import ScrollAnimations from '@/components/ScrollAnimations'
 import Footer from '@/components/Footer'
 import styles from './products.module.css'
 import productsData from '@/data/products.json'
+import '../globals.css'
 
 interface Product {
   id: string

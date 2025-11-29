@@ -4,6 +4,7 @@ import styles from './about.module.css'
 import Footer from '@/components/Footer'
 import teamData from '@/data/team.json'
 import backersData from '@/data/backers.json'
+import '../globals.css'
 
 interface TeamMember {
   image_source: string
@@ -31,8 +32,8 @@ export default function About() {
       <div className={styles.mainContent}>
         <section id="team" className={styles.teamSection}>
           <div className="container">
-            <hr className="section-divider" />
-            <h2 className="section-title-alt slide-up">Our Team</h2>
+            {/* <hr className="section-divider" /> */}
+            <h2 className="section-title slide-up">Our Team</h2>
             <div className={styles.teamGrid}>
               {(teamData as TeamMember[]).map((member, index) => (
                 <div key={index} className={`${styles.teamMember} slide-up`}>
@@ -72,6 +73,13 @@ export default function About() {
                 </div>
               ))}
             </div>
+
+          </div>
+
+        </section>
+        <section id="gap" className={styles.teamSection}>
+          <div className="container">
+            {/* <hr className="section-divider" /> */}
           </div>
         </section>
         <Footer />
