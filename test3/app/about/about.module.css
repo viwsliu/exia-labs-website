@@ -221,11 +221,11 @@
 
 @media (max-width: 768px) {
   .teamMember {
-    width: 100%;
+    width: 30%;
   }
 
   .missionContent {
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
   }
 
