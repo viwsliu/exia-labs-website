@@ -13,7 +13,7 @@
     "id": "product5",
     "name": "Keystone",
     "description": "Keystone is an AI-enabled Object Management System that unifies reports from across echelons and allies, resolves inconsistencies, and transforms fragmented inputs into a single, trusted data layer for mission systems like Maven Smart System. Keystone fuses multimodal data into a resilient object-based model that enables real-time tracking and coordination of friendly forces. Keystone leverages human-machine teaming to deliver the reliable operational picture commanders need.",
-    "image": "/images/test2.png",
+    "image": "/images/keystone_screenshot.png",
     "learnMoreUrl": "",
     "ctaText": "Coming Soon",
     "imagePosition": "left"
