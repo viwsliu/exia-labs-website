@@ -35,7 +35,7 @@
 }
 
 .productSection {
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 .productSection h2 {
@@ -50,7 +50,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .productTextContent h2 {

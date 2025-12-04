@@ -32,7 +32,6 @@ export default function About() {
       <div className={styles.mainContent}>
         <section id="team" className={styles.teamSection}>
           <div className="container">
-            {/* <hr className="section-divider" /> */}
             <h2 className="section-title slide-up">Our Team</h2>
             <div className={styles.teamGrid}>
               {(teamData as TeamMember[]).map((member, index) => (
@@ -79,7 +78,7 @@ export default function About() {
         </section>
         <section id="gap" className={styles.teamSection}>
           <div className="container">
-            {/* <hr className="section-divider" /> */}
+            {/* gap exists for space between main page and footer */}
           </div>
         </section>
         <Footer />
