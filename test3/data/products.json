@@ -13,7 +13,7 @@
     "id": "product5",
     "name": "Keystone",
     "description": "Keystone is an AI-enabled Object Management System that unifies reports from across echelons and allies, resolves inconsistencies, and transforms fragmented inputs into a single, trusted data layer for mission systems like Maven Smart System. Keystone fuses multimodal data into a resilient object-based model that enables real-time tracking and coordination of friendly forces. Keystone leverages human-machine teaming to deliver the reliable operational picture commanders need.",
-    "image": "/images/keystone_screenshot.png",
+    "image": "/images/products/keystone_screenshot.png",
     "learnMoreUrl": "",
     "ctaText": "Coming Soon",
     "imagePosition": "left"
@@ -23,7 +23,7 @@
     "name": "Recon",
     "description": "Improve decision-making by analyzing the neutral operational environment: terrain, weather, and time. A cloud-based Intelligence Preparation of the Operational Environment AI agent that creates decision support products like the Modified Combined Obstacle Overlay, identifies key terrain such as tactical areas for Position Areas for Artillery, Logistics Resupply Points and generates maneuver and logistics routes based on specific formations (e.g. Stryker Battalion, Mobile Infantry Company, Armor Brigade).",
     "mediaType": "image",
-    "image": "/images/recon.jpg",
+    "image": "/images/products/recon.jpg",
     "learnMoreUrl": "https://www.youtube.com/watch?v=4rBjt1TJ938",
     "ctaText": "Learn More",
     "imagePosition": "right"
@@ -33,7 +33,7 @@
     "name": "Soraka",
     "description": "Improve decision-making locally at the tactical edge. Data ecosystem \"in a box\" that enables data science at the tactical edge. Warfighters are able to process massive amounts of sensor data locally, without the need to transmit data to higher headquarters. Local processing allows for faster analysis and better decision-making in contested environments.",
     "mediaType": "image",
-    "image": "/images/soraka.png",
+    "image": "/images/products/soraka.png",
     "learnMoreUrl": "https://www.army.mil/article/288299/army_selects_six_winners_in_xtech_ai_grand_challenge_competition",
     "ctaText": "Learn More",
     "imagePosition": "left"
@@ -43,7 +43,7 @@
     "name": "Viktor",
     "description": "Improve decision-making for humanoid robots. Humanoid robot simulation platform built on a commercial game engine. Simulates Army individual and collective warrior tasks through a digital twin that mirrors physical robot actions and tasks. Takes generated COAs from Blue and simulates them at the individual level, ensuring robots not only execute tasks but also understand how their actions nest within higher-echelon missions.",
     "mediaType": "image",
-    "image": "/images/viktor.png",
+    "image": "/images/products/viktor.png",
     "learnMoreUrl": "",
     "ctaText": "Coming Soon",
     "imagePosition": "right"
