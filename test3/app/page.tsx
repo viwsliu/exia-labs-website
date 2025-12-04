@@ -11,7 +11,6 @@ export default function Home() {
         <section className={styles.heroSection}>
           <div className={styles.container}>
             <div className={styles.centeredText}>
-              {/* version 1 of text */}
               <p className={styles.header_date}> <em>5 December, 2025</em> </p>
               <h1 className={styles.mainHeading}>Achieving Decision Advantage through Spatial AI</h1>
               <hr className="section-divider" />
