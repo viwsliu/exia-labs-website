@@ -1,0 +1,119 @@
+.logoSection {
+  padding: 10px 0;
+  overflow: hidden;
+  background-color: rgba(150, 150, 150, 0.507);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-light);
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.logoContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.logoWrapper {
+  display: inline-flex;
+  animation: scroll 30s linear infinite;
+}
+
+.logoTrack {
+  display: inline-flex;
+  gap: 50px;
+}
+
+.logoItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  min-width: 200px;
+  height: 100px;
+}
+
+.logoItem:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.logoImage {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 80px;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+}
+
+.logoText {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-light);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-light);
+  opacity: 0.5;
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .logoItem {
+    min-width: 150px;
+    height: 60px;
+  }
+
+  .logoImage {
+    max-width: 150px;
+    max-height: 60px;
+  }
+
+  .logoText {
+    font-size: 18px;
+  }
+
+  .logoTrack {
+    gap: 50px;
+  }
+
+  .sectionTitle {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+  .disclaimer {
+    font-size: 11px;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+}

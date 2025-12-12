@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Blue",
+    "description": "Blue is a suite of decision-support products that generates and wargames tactical echelon courses of action. Blue enables planning workflows tied to operations orders or sandbox placement of units in time and space, leveraging multiple world models  to produce feasible, acceptable, and suitable COAs. Optimized for Army brigades and battalions, Blue is focused on delivering the decision advantage to the tactical edge.",
+    "image": "/images/products/blue_new.png",
+    "learnMoreUrl": "https://youtu.be/qhFdCDMtDVk?si=rgZ2sYSzs_MtifHh",
+    "ctaText": "Learn More",
+    "imagePosition": "right",
+    "section": "decision_advantage"
+  },
+  {
+    "name": "Keystone",
+    "description": "Keystone is an AI-enabled Object Management System that ingests reports about friendly units from across echelons and allies, resolves inconsistencies and duplicates, and generates distinct unit entities with assigned confidence levels. Keystone updates these entities in real time, creating a single, trusted object-based data layer for mission systems like Maven Smart System and Lattice. NATO SHAPE's Task Force Maven selected Exia to demonstrate Keystone’s integration with an unclassified cloud-based Maven Smart System environment with nominal data.",
+    "image": "/images/products/keystone_screenshot.png",
+    "learnMoreUrl": "",
+    "ctaText": "Coming Soon",
+    "imagePosition": "left",
+    "section": "data_architecture"
+  },
+  {
+    "name": "Recon",
+    "description": "Improve decision-making by analyzing the neutral operational environment: terrain, weather, and time. A cloud-based Intelligence Preparation of the Operational Environment AI agent that creates decision support products like the Modified Combined Obstacle Overlay, identifies key terrain such as tactical areas for Position Areas for Artillery, Logistics Resupply Points and generates maneuver and logistics routes based on specific formations (e.g. Stryker Battalion, Mobile Infantry Company, Armor Brigade).",
+    "mediaType": "image",
+    "image": "/images/products/recon.jpg",
+    "learnMoreUrl": "https://www.youtube.com/watch?v=4rBjt1TJ938",
+    "ctaText": "Learn More",
+    "imagePosition": "right",
+    "section": "decision_advantage"
+  },
+  {
+    "name": "Soraka",
+    "description": "Soraka is a data ecosystem \"in a box\" solution that drives improved decision-making at the tactical edge. Soraka enables warfighters to process massive amounts of sensor data locally, without the need to transmit data to higher headquarters. Local processing enables faster analysis and better decision-making in contested environments.",
+    "mediaType": "image",
+    "image": "/images/products/soraka.png",
+    "learnMoreUrl": "https://www.army.mil/article/288299/army_selects_six_winners_in_xtech_ai_grand_challenge_competition",
+    "ctaText": "Learn More",
+    "imagePosition": "left",
+    "section": "data_architecture"
+  },
+  {
+    "name": "Viktor",
+    "description": "Viktor provides a high-fidelity simulation environment for autonomous humanoid systems. Leveraging commercial game engine technology, it replicates Army individual and collective warrior tasks via digital twins. Viktor validates Blue generated courses of action, verifying that robotic execution remains fully nested within the commander’s intent and higher-echelon schemes of maneuver.",
+    "mediaType": "image",
+    "image": "/images/products/viktor_.png",
+    "learnMoreUrl": "",
+    "ctaText": "Coming Soon",
+    "imagePosition": "right",
+    "section": "decision_advantage"
+  }
+]

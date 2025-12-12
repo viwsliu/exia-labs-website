@@ -1,0 +1,46 @@
+[
+  {
+    "name":"Army War College",
+    "image":"/images/building_with/awc_logo.png"
+  },
+  {
+    "name":"West Point",
+    "image":"/images/building_with/west_point_logo.png"
+  },
+  {
+    "name":"DEVCOM Armaments Center",
+    "image":"/images/building_with/devcom_center_logo.png"
+  },
+  {
+    "name":"Task Force Maven", 
+    "image":"/images/building_with/tf_maven.png"
+  },
+  {
+    "name":"Defense Innovation Unit",
+    "image":"/images/building_with/diu_logo.png"
+  },
+  {
+    "name":"T2COM",
+    "image":"/images/building_with/t2com_logo.png"
+  }, 
+  {
+    "name":"101st Airborne Division",
+    "image":"/images/building_with/101st_airborne_division_logo.png"
+  },
+  {
+    "name":"1st Battalion, 509th Infantry Regiment",
+    "image":"/images/building_with/509th_infantry_regiment_logo.png"
+  },
+  {
+    "name":"Washington National Guard",
+    "image":"/images/building_with/washington_national_guard_logo.png"
+  },
+  {
+    "name":"Palantir",
+    "image":"/images/building_with/palantir_logo.png"
+  },
+  {
+    "name":"Lockheed Martin",
+    "image":"/images/building_with/lockheed_martin_logo1.png"
+  }
+]

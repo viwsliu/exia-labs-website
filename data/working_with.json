@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Meta",
+    "image_source": "/images/working_with/meta_logo.png"
+  },
+  {
+    "name": "Amazon",
+    "image_source": "/images/working_with/amazon_logo.png"
+  },
+  {
+    "name": "Riot Games",
+    "image_source": "/images/working_with/riot_games_logo.png"
+  },
+  {
+    "name": "EA",
+    "image_source": "/images/working_with/ea_logo.png"
+  },
+  {
+    "name": "US Army",
+    "image_source": "/images/working_with/us_army_logo.png"
+  },
+  {
+    "name": "Walmart",
+    "image_source": "/images/working_with/walmart_logo.png"
+  },
+  {
+    "name": "Hoover Institution",
+    "image_source": "/images/working_with/hoover_institution_logo.png"
+  }
+]
